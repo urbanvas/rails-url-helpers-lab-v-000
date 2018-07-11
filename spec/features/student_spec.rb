@@ -21,7 +21,6 @@ end
 describe 'Show page' do
   before do
     @student = Student.create!(first_name: "Daenerys", last_name: "Targaryen")
-    binding.pry
   end
 
   it 'renders properly' do
